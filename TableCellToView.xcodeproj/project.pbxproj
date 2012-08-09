@@ -14,7 +14,8 @@
 		54D3ABAB15D351D600BD937C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ABAA15D351D600BD937C /* main.m */; };
 		54D3ABAF15D351D600BD937C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ABAE15D351D600BD937C /* AppDelegate.m */; };
 		54D3ABB215D351D600BD937C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D3ABB015D351D600BD937C /* MainStoryboard.storyboard */; };
-		54D3ABB515D351D600BD937C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ABB415D351D600BD937C /* ViewController.m */; };
+		54D3ABBD15D3527F00BD937C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ABBC15D3527F00BD937C /* TableViewController.m */; };
+		54D3ABC715D35E6400BD937C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ABC615D35E6400BD937C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		54D3AB9E15D351D600BD937C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54D3ABA015D351D600BD937C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54D3ABA215D351D600BD937C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54D3ABA615D351D600BD937C /* TableCellToView-Info.plist */ = {isa = PBXFileReference; path = "TableCellToView-Info.plist"; sourceTree = "<group>"; };
+		54D3ABA615D351D600BD937C /* TableCellToView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableCellToView-Info.plist"; sourceTree = "<group>"; };
 		54D3ABA815D351D600BD937C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54D3ABAA15D351D600BD937C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54D3ABAC15D351D600BD937C /* TableCellToView-Prefix.pch */ = {isa = PBXFileReference; path = "TableCellToView-Prefix.pch"; sourceTree = "<group>"; };
-		54D3ABAD15D351D600BD937C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		54D3ABAC15D351D600BD937C /* TableCellToView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableCellToView-Prefix.pch"; sourceTree = "<group>"; };
+		54D3ABAD15D351D600BD937C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54D3ABAE15D351D600BD937C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54D3ABB115D351D600BD937C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		54D3ABB315D351D600BD937C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		54D3ABB415D351D600BD937C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54D3ABBB15D3527F00BD937C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		54D3ABBC15D3527F00BD937C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		54D3ABC515D35E6400BD937C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54D3ABC615D35E6400BD937C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +83,11 @@
 				54D3ABAD15D351D600BD937C /* AppDelegate.h */,
 				54D3ABAE15D351D600BD937C /* AppDelegate.m */,
 				54D3ABB015D351D600BD937C /* MainStoryboard.storyboard */,
-				54D3ABB315D351D600BD937C /* ViewController.h */,
-				54D3ABB415D351D600BD937C /* ViewController.m */,
 				54D3ABA515D351D600BD937C /* Supporting Files */,
+				54D3ABBB15D3527F00BD937C /* TableViewController.h */,
+				54D3ABBC15D3527F00BD937C /* TableViewController.m */,
+				54D3ABC515D35E6400BD937C /* DetailViewController.h */,
+				54D3ABC615D35E6400BD937C /* DetailViewController.m */,
 			);
 			path = TableCellToView;
 			sourceTree = "<group>";
@@ -162,7 +167,8 @@
 			files = (
 				54D3ABAB15D351D600BD937C /* main.m in Sources */,
 				54D3ABAF15D351D600BD937C /* AppDelegate.m in Sources */,
-				54D3ABB515D351D600BD937C /* ViewController.m in Sources */,
+				54D3ABBD15D3527F00BD937C /* TableViewController.m in Sources */,
+				54D3ABC715D35E6400BD937C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

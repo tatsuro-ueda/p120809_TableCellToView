@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 
 @implementation DetailViewController
+@synthesize label;
+@synthesize string;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,6 +27,11 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidLoad
+{
+    label.text = string;
 }
 
 #pragma mark - View lifecycle
@@ -46,6 +53,7 @@
 
 - (void)viewDidUnload
 {
+    [self setLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
